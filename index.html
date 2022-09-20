@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Introduction To Semantic Elements In HTML5</title>
+    <!-- linking css to html --> -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+   <h1>Introduction to Semantic elements in html5</h1>
+   <hr size="3" noshade="" color="green">
+   <!-- Linking different pages in the index entry file -->
+   <header>
+    <nav>
+        <ul>
+           <a href="Home.html" target="_blank"> <Li>Home</Li></a>
+            <a href="Aboutus.html" target="_blank"><li>About us</li></a>
+           <a href="Ourprogrammes.html" target="_blank"><li>Our programmes</li></a>
+            <a href="Contactus.html" target="_blank"><li>Contact us</li></a>
+         </ul>
+         </nav>
+   </header>
+   <article>
+    <h2>femidevs programmes</h2>
+    <p>This program empowers young women with computer skills.</p>
+   </article>
+   <!-- creating section area  -->
+   <section>
+    <h1>hypertext markup language HTML</h1>
+    <p>HTML is the standard markup language for creating web pages and web applications.<br> Browsers receive HTML documents from a web server or from local storage and><br> render the documents into multimedia web pages. HTML describes the structure of a web page semantically and<br> originally included cues for the appearance of the document.</p>
+  </section>
+  <section>
+    <h1>CSS</h1>
+    <P>A formal language that is used as a description zone, formatting the appearance of a web page written with<br> the help of markup languages HTML and XHTML but<br> it can be applied to any XML-document, for example, to SVG or XUL.</P>
+  </section>
+  <hr>
+  <!-- USING ASIDE ELEMENT -->
+  <P>I like watching Game Of Thrones</P>
+  <aside>
+    <h4>Game Of Thrones</h4>
+    <p>Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss.<br> It is an adaptation of A Song of Ice and Fire, George R. R. Martin's series of fantasy novels</p>
+  </aside>
+  <hr size="3" noshade="" colour="purple">
+  <!-- using figure element -->
+  <p>Image of a horse and dog</p>
+  <figure>
+    <img src="https://media.istockphoto.com/photos/red-border-collie-dog-and-horse-picture-id178752719?k=20&m=178752719&s=612x612&w=0&h=0Q-UH49lNVTnwiDg_Xfs_WFcRkOyBY4N9w13q--R9Gg=" alt="a cute horse and dog" width="400" height="300">
+    <figcaption>A Horse and Dog at the stable</figcaption>
+  </figure>
+  <hr>
+ 
+  <!-- creating address element -->
+  <address>
+    Author: Naomie<br/> 
+    <a href="mailto:naomiecate6@gmail.com">send mail to Naomie</a>
+  </address>
+  <!-- creating footer element-->
+  <footer>
+    <p>
+        Femidevs &copy;2022
+    </p>
+    <ul>
+    <a href="https://theborderhub.org/" target="_blank"><li>BORDERHUB</li></a>
+        <a href="https://lakehub.co.ke/" target="_blank"><li>LAKEHUB</li></a>
+    </ul>
+  </footer>
+   <!-- creating form element -->
+   <form action="" method="get" class="form-example">
+    <h4>html forms</h4>
+    <div class="form-example">
+     <label for="name">Enter your name: </label> 
+  <input type="text" name="name" id="name" placeholder="Please write your name" required>
+    </div class="form-example">
+<label for="email" >Enter your email: </label> 
+<input type="email" name="email" id="email" required >
+  </div >
+  <div class="form-example">
+    <input type="submit" value="Subscribe!"></div>  
+  </form>
+    </main>
+</body>
+</html>
